@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftFormatfork}",
+            "name": "Debug swiftformat",
+            "program": "${workspaceFolder:SwiftFormatfork}/.build/debug/swiftformat",
+            "preLaunchTask": "swift: Build Debug swiftformat"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftFormatfork}",
+            "name": "Release swiftformat",
+            "program": "${workspaceFolder:SwiftFormatfork}/.build/release/swiftformat",
+            "preLaunchTask": "swift: Build Release swiftformat"
+        }
+    ]
+}

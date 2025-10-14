@@ -1,0 +1,19 @@
+{
+    "swift.path": "/usr/bin/swift",
+    "swift.buildArguments": [],
+    "swift.disableSwiftPMIntegration": false,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+        "editor.formatOnSave": true
+    },
+    "[swift]": {
+        "editor.defaultFormatter": "swiftlang.swift-vscode"
+    }
+}
